@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 182.160.7.115:8848
+server:
+  port: 8050
+
